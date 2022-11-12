@@ -1,0 +1,93 @@
+
+
+.tarjeta {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #9ED5C5;
+   justify-content:space-between;
+   align-items:center;
+   padding: 10px;
+   margin: 10px;
+    
+  }
+
+  @media screen and (min-width: 768px) {
+    .tarjeta{
+        width: 300px;
+        padding: 10px;
+        margin: 10px 5px;
+    }
+  }
+
+
+  .image{
+    
+    display: flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .image img{
+    width: 100%;
+    max-width: 200px;
+    
+   
+  }
+
+
+    /* On mouse-over, add a deeper shadow */
+    .tarjeta:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      /* Add some padding inside the card container */
+      .containerTarjeta {
+        width: 100%;
+        flex-grow: 2;
+      }
+    
+    
+      .containerTarjeta h3{
+        font-weight: bold;
+      }
+
+      .containerTarjeta p{
+        text-align: justify;
+        margin: 20px 0
+      }
+
+
+      /* BOTON DEL PRODUCTO */
+
+      .btnProducto{
+        width: 100%;
+        padding:20px;
+        background-color: #000000;
+        transition: all 0.5s ease-in-out;
+        color:#fff;
+        cursor: pointer;
+        border: none;
+        border-radius:5px;
+      }
+
+      .btnProducto:hover{ 
+        background-color: #fff;
+        color: #000000; 
+      }
+
+      .btnProducto span{
+        font-size: 16px;
+        padding:10px;
+        text-transform: uppercase;
+        font-weight: bold;
+        
+      }
+
+      .containerTarjeta p > span {
+        margin: 0 5px;
+      }
+
+     
+
+
+    

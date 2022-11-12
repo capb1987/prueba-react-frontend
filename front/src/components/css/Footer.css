@@ -1,0 +1,16 @@
+/* TODO LO CORRESPONDIENTE AL HEADER */
+
+.contenedorFooter{
+
+   background-color: #F7F7F7;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+
+   max-height:200px !important;
+   height:100%;
+}
+
+
+

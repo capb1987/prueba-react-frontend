@@ -1,0 +1,18 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+@media screen and (min-width: 768px) {
+    .productos{
+        
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.productos h1{
+    flex: 0 0 100%;
+    text-align: center;
+}
